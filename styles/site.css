@@ -1,0 +1,25 @@
+@media (min-width: 560px) { 
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 996px) { 
+  .card-columns {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1440px) { 
+  .card-columns {
+    column-count: 4;
+  }
+}
+
+.boss-card:hover {
+  box-shadow: inset 0px 0px 15px 1px rgba(0, 247, 255, 0.753);
+}
+
+.error {
+  color: red;
+}
